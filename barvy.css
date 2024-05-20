@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+#color-display {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border: 5px solid #000;
+}
+.favorite-color {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #000;
+    margin-left: 50vh;
+    margin-right: 50vh;
+}
+.favorite-color span {
+    flex-grow: 1;
+}
+
+.favorite-color button{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.favorite-color button:hover{
+    box-shadow: rgb(255, 63, 63) 0px 5px 15px;
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
+
+.addFav{
+    margin-left: 5vh;
+    background-color: rgb(0, 128, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.addFav:hover{
+    cursor: pointer;
+    box-shadow: rgb(0, 128, 0) 0px 5px 15px;
+    background-color: green;
+    color: lime;
+}
+
+.generate{
+    margin-right: 5vh;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.generate:hover{
+    cursor: pointer;
+    box-shadow: rgb(0, 0, 255) 0px 5px 15px;
+    background-color: blue;
+    color: cyan;
+}
+
+.logOff{
+    color:red
+}
+
+.generator{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    padding: 5vh;
+}
+
+h1, h2{
+    text-decoration: underline;
+}
+
+
